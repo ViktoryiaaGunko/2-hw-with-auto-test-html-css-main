@@ -1,4 +1,7 @@
 * {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
     /* Свойства для сброса начальных стилей элементов */
 }
 
@@ -7,6 +10,7 @@ body {}
 header {
     /* Стили для хедера */
 }
+
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
