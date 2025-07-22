@@ -5,40 +5,63 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
+/*ВОПРОСЫ
+1. ЧТО ДЕЛАТЬ С ШИРИНОЙ НУЖНО ЛИ ЕЁ ВООБЩЕ ПРОПИСЫВАТЬ
+ */
 body {}
 
 header {
     /* Стили для хедера */
+  font-family: "Inter", sans-serif;
+  background-color: #2965f1;
+  height: 70px;
+  padding: 23px 0;
 }
-
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
 }
 
 .main-section {
     /* Стили для первой секции */
+  height: 1024px;
+  background-color: #fafaff;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+  font-weight: 700;
+  font-size: 48px;
+  color: #303030;
+  padding: 60px 0 20px 0;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+  font-weight: 400;
+  font-size: 18px;
+  color: #303030;
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
+  width: 715px;
+  /*height: 508px;*/
 }
-
 
 .about-section {
     /* Стили для второй секции */
+  background-color: #fff;
+  height: 883px;
+  padding: 100px 0;
 }
 
 select {
     /* Стили для выпадающего списка */
+  
 }
 
 .section-title {
