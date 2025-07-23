@@ -2,7 +2,6 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  text-decoration: none;
     /* Свойства для сброса начальных стилей элементов */
 }
 
@@ -157,6 +156,7 @@ footer {
 
 .footer-link {
     /* Стили для футера */
+  text-decoration: none;
   width: 78px;
   height: 17px;
   font-weight: 400;
